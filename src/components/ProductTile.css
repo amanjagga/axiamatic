@@ -1,0 +1,40 @@
+.product-tile {
+    width: 174px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    position: relative;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 0 1px 3px 0 rgba(19, 57, 94, 0.2);
+}
+.plus-icon {
+    padding: 10px 15px;
+    background: #f4f9f9;
+    width: fit-content;
+    font-size: 30px;
+    color: grey;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ebebe6;
+}
+
+.title {
+    margin: 10px;
+    font-weight: 700;
+}
+
+.remove-cta {
+    position: absolute;
+    bottom: 20px;
+    color: grey;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cross-icon {
+    color: red;
+}

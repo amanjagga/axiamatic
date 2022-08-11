@@ -1,0 +1,29 @@
+.autocomplete {
+    position: relative;
+    width: 100%
+}
+
+.text-box {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
+
+.text-box input {
+    border: 0;
+    outline: none;
+    width: 90%;
+}
+
+.suggestions {
+    margin-top: 10px;
+    box-shadow: 0 1px 3px 0 rgba(19, 57, 94, 0.2);
+}
+.suggestions-wrapper {
+    position: absolute;
+    top:32px;
+    width: 100%;
+    background: white;
+    z-index: 2;
+}

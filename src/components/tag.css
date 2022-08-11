@@ -1,0 +1,7 @@
+.tag {
+    background-image: linear-gradient(to top right, #4e4ee9, #e718e7);
+    padding: 10px;
+    border-radius: 4px;
+    width: fit-content;
+    color: white;
+}

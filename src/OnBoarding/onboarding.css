@@ -1,0 +1,40 @@
+.onboarding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.right-section {
+    width: 40%;
+}
+
+.suggestion {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion:hover {
+    background: cornflowerblue;
+    color: white;
+}
+.suggestion-logo {
+    margin-right: 5px;
+}
+
+.suggestion-left {
+    display: flex;
+    align-items: center;
+}
+
+.help-text {
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #393931;
+}
+
+.fa-check {
+    font-size: 14px;
+}

@@ -1,0 +1,9 @@
+.tiles {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.product-length {
+    text-align: center;
+    color: grey;
+}
